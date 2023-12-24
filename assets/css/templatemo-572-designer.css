@@ -1,10 +1,4 @@
-/*
 
-TemplateMo 572 Designer
-
-https://templatemo.com/tm-572-designer
-
-*/
 
 body {
   font-family: 'Alexandria', sans-serif;
@@ -342,7 +336,18 @@ button:focus:not(:focus-visible) {
 @media (min-width: 576px) {
   .main-banner {
     padding: 270px 0px 400px 0px;
+    
   }
+}
+
+
+@media (max-width: 576px) {
+  /* Mobile styles */
+  .main-banner {
+    margin-bottom: 150px;
+  }
+
+  
 }
 
 .main-banner h6 {
